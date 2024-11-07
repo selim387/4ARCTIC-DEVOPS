@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/myrepo.jar myrepo.jar
-ENTRYPOINT ["java","-jar","/myrepo.jar"]
+ADD target/springboot-images-new.jar springboot-images-new.jar
+ENTRYPOINT ["java","-jar","/springboot-images-new.jar"]
